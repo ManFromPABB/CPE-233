@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../rom_averagerV4.srcs/sources_1/imports/CPE 233/Verilog_FSM_Template v1_00-1.v" \
+"../../../../rom_averagerV4.srcs/sources_1/imports/CPE 233/cntr_up_clr_nb_v1_03.v" \
+"../../../../rom_averagerV4.srcs/sources_1/imports/CPE 233/comp_nb_v1_02.v" \
+"../../../../rom_averagerV4.srcs/sources_1/imports/ManFr/Downloads/exp1h_rom_16x8a.v" \
+"../../../../rom_averagerV4.srcs/sources_1/imports/ManFr/Downloads/exp1h_rom_16x8b.v" \
+"../../../../rom_averagerV4.srcs/sources_1/imports/CPE 233/mux_2t1_nb_v1_04.v" \
+"../../../../rom_averagerV4.srcs/sources_1/imports/CPE 233/n_x_m_single_port_ram_v_1_01.v" \
+"../../../../rom_averagerV4.srcs/sources_1/imports/CPE 233/rca_nb_v1_04.v" \
+"../../../../rom_averagerV4.srcs/sources_1/imports/CPE 233/univ_sseg_v1_05.v" \
+
+sv xil_defaultlib  \
+"../../../../rom_averagerV4.srcs/sources_1/new/ROM_Averager.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1678774577">
+  <File Type="PA-TCL" Name="OTTER_Wrapper.tcl"/>
+  <File Type="REPORTS-TCL" Name="OTTER_Wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="OTTER_Wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="OTTER_Wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="OTTER_Wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="OTTER_Wrapper.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/sources/mux_4t1_nb_v1_06.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sources/mux_4t1_nb_v1_06.v"/>
+        <Attr Name="ImportTime" Val="1673461509"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/mux_8t1_nb_v1_03.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sources/mux_8t1_nb_v1_03.v"/>
+        <Attr Name="ImportTime" Val="1673461513"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/BRANCH_ADDR_GEN.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sources/BRANCH_ADDR_GEN.sv"/>
+        <Attr Name="ImportTime" Val="1675307548"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/BRANCH_COND_GEN.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sources/BRANCH_COND_GEN.sv"/>
+        <Attr Name="ImportTime" Val="1676670484"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/CSR_v1_03.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sources/CSR_v1_03.sv"/>
+        <Attr Name="ImportTime" Val="1677279733"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/IMMED_GEN.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sources/IMMED_GEN.sv"/>
+        <Attr Name="ImportTime" Val="1676331264"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/OTTER_MCU.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sources/OTTER_MCU.sv"/>
+        <Attr Name="ImportTime" Val="1677716148"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/PC_MOD.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sources/PC_MOD.sv"/>
+        <Attr Name="ImportTime" Val="1677712534"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/alu.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sources/alu.sv"/>
+        <Attr Name="ImportTime" Val="1675679419"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/control_unit_dcdr_v_1_04-1.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sources/control_unit_dcdr_v_1_04-1.sv"/>
+        <Attr Name="ImportTime" Val="1677713375"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/control_unit_fsm_v_1_06.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sources/control_unit_fsm_v_1_06.sv"/>
+        <Attr Name="ImportTime" Val="1677720631"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/dbounce_v1_01-1.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sources/dbounce_v1_01-1.sv"/>
+        <Attr Name="ImportTime" Val="1678218241"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/one_shot_posneg_v1_02-1.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sources/one_shot_posneg_v1_02-1.sv"/>
+        <Attr Name="ImportTime" Val="1678218240"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/otter_memory_v1_06.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sources/otter_memory_v1_06.sv"/>
+        <Attr Name="ImportTime" Val="1675724362"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/reg_file_v_1_01.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sources/reg_file_v_1_01.sv"/>
+        <Attr Name="ImportTime" Val="1675724364"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/OTTER_Wrapper_v1_07.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../Downloads/OTTER_Wrapper_v1_07.sv"/>
+        <Attr Name="ImportTime" Val="1676930734"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/clk_2n_div_test_v1_01.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sources/clk_2n_div_test_v1_01.v"/>
+        <Attr Name="ImportTime" Val="1673461481"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/otter_memory.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sources/otter_memory.mem"/>
+        <Attr Name="ImportTime" Val="1678160402"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="OTTER_Wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Downloads/Basys3_RISCV_simple.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Week7/mcu_interrupt/mcu_interrupt.srcs/constrs_1/imports/Downloads/Basys3_RISCV_simple.xdc"/>
+        <Attr Name="ImportTime" Val="1678151685"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

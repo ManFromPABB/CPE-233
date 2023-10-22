@@ -1,0 +1,13 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot ROM_Averager_behav xil_defaultlib.ROM_Averager xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 9 for port 'b' [C:/Users/ManFr/Desktop/OneDrive - Cal Poly/Documents and Notes/Sophomore/Winter Quarter/CPE 233/Projects/Week1/rom_averagerV4/rom_averagerV4.srcs/sources_1/new/ROM_Averager.sv:87]
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 14 for port 'cnt1' [C:/Users/ManFr/Desktop/OneDrive - Cal Poly/Documents and Notes/Sophomore/Winter Quarter/CPE 233/Projects/Week1/rom_averagerV4/rom_averagerV4.srcs/sources_1/new/ROM_Averager.sv:110]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 7 for port 'cnt2' [C:/Users/ManFr/Desktop/OneDrive - Cal Poly/Documents and Notes/Sophomore/Winter Quarter/CPE 233/Projects/Week1/rom_averagerV4/rom_averagerV4.srcs/sources_1/new/ROM_Averager.sv:111]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'valid' [C:/Users/ManFr/Desktop/OneDrive - Cal Poly/Documents and Notes/Sophomore/Winter Quarter/CPE 233/Projects/Week1/rom_averagerV4/rom_averagerV4.srcs/sources_1/new/ROM_Averager.sv:112]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'dp_en' [C:/Users/ManFr/Desktop/OneDrive - Cal Poly/Documents and Notes/Sophomore/Winter Quarter/CPE 233/Projects/Week1/rom_averagerV4/rom_averagerV4.srcs/sources_1/new/ROM_Averager.sv:113]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

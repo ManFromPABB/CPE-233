@@ -1,0 +1,13 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/Users/ManFr/Desktop/OneDrive - Cal Poly/Documents and Notes/Sophomore/Winter Quarter/CPE 233/Projects/Week2/testy/testy.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/ManFr/Desktop/OneDrive - Cal Poly/Documents and Notes/Sophomore/Winter Quarter/CPE 233/Projects/Week2/testy/testy.srcs/sim_1/new/countysim.sv,1674875740,systemVerilog,,,,countysim,,uvm,,,,,,
+C:/Users/ManFr/Desktop/OneDrive - Cal Poly/Documents and Notes/Sophomore/Winter Quarter/CPE 233/Projects/Week2/testy/testy.srcs/sim_1/new/othercounty.sv,1676083533,systemVerilog,,,,othercounty,,uvm,,,,,,
+C:/Users/ManFr/Desktop/OneDrive - Cal Poly/Documents and Notes/Sophomore/Winter Quarter/CPE 233/Projects/Week2/testy/testy.srcs/sources_1/imports/CPE 233/Verilog_FSM_Template v1_00-1.v,1676083875,verilog,,C:/Users/ManFr/Desktop/OneDrive - Cal Poly/Documents and Notes/Sophomore/Winter Quarter/CPE 233/Projects/Week2/testy/testy.srcs/sources_1/imports/CPE 233/cntr_up_clr_nb_v1_03.v,,fsm_template,,uvm,,,,,,
+C:/Users/ManFr/Desktop/OneDrive - Cal Poly/Documents and Notes/Sophomore/Winter Quarter/CPE 233/Projects/Week2/testy/testy.srcs/sources_1/imports/CPE 233/cntr_up_clr_nb_v1_03.v,1673461490,verilog,,C:/Users/ManFr/Desktop/OneDrive - Cal Poly/Documents and Notes/Sophomore/Winter Quarter/CPE 233/Projects/Week2/testy/testy.srcs/sources_1/imports/CPE 233/comp_nb_v1_02.v,,cntr_up_clr_nb,,uvm,,,,,,
+C:/Users/ManFr/Desktop/OneDrive - Cal Poly/Documents and Notes/Sophomore/Winter Quarter/CPE 233/Projects/Week2/testy/testy.srcs/sources_1/imports/CPE 233/comp_nb_v1_02.v,1673461493,verilog,,C:/Users/ManFr/Desktop/OneDrive - Cal Poly/Documents and Notes/Sophomore/Winter Quarter/CPE 233/Projects/Week2/testy/testy.srcs/sources_1/imports/CPE 233/mux_2t1_nb_v1_04.v,,comp_nb,,uvm,,,,,,
+C:/Users/ManFr/Desktop/OneDrive - Cal Poly/Documents and Notes/Sophomore/Winter Quarter/CPE 233/Projects/Week2/testy/testy.srcs/sources_1/imports/CPE 233/mux_2t1_nb_v1_04.v,1673461505,verilog,,,,mux_2t1_nb,,uvm,,,,,,
+C:/Users/ManFr/Desktop/OneDrive - Cal Poly/Documents and Notes/Sophomore/Winter Quarter/CPE 233/Projects/Week2/testy/testy.srcs/sources_1/imports/testy/cntr_up_+3.v,1674265410,verilog,,C:/Users/ManFr/Desktop/OneDrive - Cal Poly/Documents and Notes/Sophomore/Winter Quarter/CPE 233/Projects/Week2/testy/testy.srcs/sources_1/imports/CPE 233/cntr_up_clr_nb_v1_03.v,,cntr_3,,uvm,,,,,,
+C:/Users/ManFr/Desktop/OneDrive - Cal Poly/Documents and Notes/Sophomore/Winter Quarter/CPE 233/Projects/Week2/testy/testy.srcs/sources_1/new/county.sv,1674265694,systemVerilog,,C:/Users/ManFr/Desktop/OneDrive - Cal Poly/Documents and Notes/Sophomore/Winter Quarter/CPE 233/Projects/Week2/testy/testy.srcs/sim_1/new/countysim.sv,,county,,uvm,,,,,,

@@ -1,0 +1,17 @@
+
+*** Running vivado
+    with args -log OTTER_Wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source OTTER_Wrapper.tcl
+
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source OTTER_Wrapper.tcl -notrace
+Command: synth_design -top OTTER_Wrapper -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1

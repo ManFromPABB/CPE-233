@@ -1,0 +1,27 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 12 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot otter_tb_behav xil_defaultlib.otter_tb xil_defaultlib.glbl -log elaborate.log 
+Using 12 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC_MOD
+Compiling module xil_defaultlib.Memory
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.mux_4t1_nb(n=32)
+Compiling module xil_defaultlib.IMMED_GEN
+Compiling module xil_defaultlib.BRANCH_ADDR_GEN
+Compiling module xil_defaultlib.mux_8t1_nb(n=32)
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.BRANCH_COND_GEN
+Compiling module xil_defaultlib.CU_FSM
+Compiling module xil_defaultlib.CU_DCDR
+Compiling module xil_defaultlib.CSR
+Compiling module xil_defaultlib.OTTER_MCU
+Compiling module xil_defaultlib.OTTER_Wrapper
+Compiling module xil_defaultlib.otter_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot otter_tb_behav

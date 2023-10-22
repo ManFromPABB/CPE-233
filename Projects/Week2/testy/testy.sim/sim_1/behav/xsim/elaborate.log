@@ -1,0 +1,16 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot othercounty_behav xil_defaultlib.othercounty xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3823] variable 'count' might have multiple concurrent drivers [C:/Users/ManFr/Desktop/OneDrive - Cal Poly/Documents and Notes/Sophomore/Winter Quarter/CPE 233/Projects/Week2/testy/testy.srcs/sim_1/new/othercounty.sv:57]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.cntr_up_clr_nb(n=3)
+Compiling module xil_defaultlib.fsm_template
+Compiling module xil_defaultlib.othercounty
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot othercounty_behav

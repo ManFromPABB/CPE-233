@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1674620525">
+  <File Type="PA-TCL" Name="ROM_Averager.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="ROM_Averager_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="ROM_Averager_reports.tcl"/>
+  <File Type="RDS-RDS" Name="ROM_Averager.vds"/>
+  <File Type="RDS-UTIL" Name="ROM_Averager_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="ROM_Averager_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="ROM_Averager.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="ROM_Averager_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="ROM_Averager_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/CPE 233/Verilog_FSM_Template v1_00-1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Verilog_FSM_Template v1_00-1.v"/>
+        <Attr Name="ImportTime" Val="1673461470"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CPE 233/cntr_up_clr_nb_v1_03.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../cntr_up_clr_nb_v1_03.v"/>
+        <Attr Name="ImportTime" Val="1673461490"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CPE 233/comp_nb_v1_02.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../comp_nb_v1_02.v"/>
+        <Attr Name="ImportTime" Val="1673461493"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ManFr/Downloads/exp1h_rom_16x8a.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../Downloads/exp1h_rom_16x8a.v"/>
+        <Attr Name="ImportTime" Val="1673322268"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ManFr/Downloads/exp1h_rom_16x8b.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../Downloads/exp1h_rom_16x8b.v"/>
+        <Attr Name="ImportTime" Val="1673322274"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CPE 233/mux_2t1_nb_v1_04.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../mux_2t1_nb_v1_04.v"/>
+        <Attr Name="ImportTime" Val="1673461505"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CPE 233/n_x_m_single_port_ram_v_1_01.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../n_x_m_single_port_ram_v_1_01.v"/>
+        <Attr Name="ImportTime" Val="1673461520"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CPE 233/rca_nb_v1_04.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../rca_nb_v1_04.v"/>
+        <Attr Name="ImportTime" Val="1673461524"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CPE 233/univ_sseg_v1_05.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../univ_sseg_v1_05.v"/>
+        <Attr Name="ImportTime" Val="1673461474"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CPE 233/usr_nb_v1_01.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../usr_nb_v1_01.v"/>
+        <Attr Name="ImportTime" Val="1673461598"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CPE 233/clock_div2.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../clock_div2.vhd"/>
+        <Attr Name="ImportTime" Val="1660434845"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ROM_Averager.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Round_Up.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/exp1h_romb.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../Downloads/exp1h_romb.mem"/>
+        <Attr Name="ImportTime" Val="1673322285"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/exp1h_roma.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../Downloads/exp1h_roma.mem"/>
+        <Attr Name="ImportTime" Val="1673322280"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ROM_Averager"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/CPE 233/Basys3_Master_v1_03.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Basys3_Master_v1_03.xdc"/>
+        <Attr Name="ImportTime" Val="1673461462"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

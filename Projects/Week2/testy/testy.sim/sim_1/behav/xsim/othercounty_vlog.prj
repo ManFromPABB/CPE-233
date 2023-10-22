@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../testy.srcs/sources_1/imports/CPE 233/Verilog_FSM_Template v1_00-1.v" \
+"../../../../testy.srcs/sources_1/imports/CPE 233/cntr_up_clr_nb_v1_03.v" \
+
+sv xil_defaultlib  \
+"../../../../testy.srcs/sim_1/new/othercounty.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

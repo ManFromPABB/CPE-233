@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../mcu_computer.srcs/sources_1/imports/CPE 233/mux_2t1_nb_v1_04.v" \
+"../../../../../../../mux_4t1_nb_v1_06.v" \
+
+sv xil_defaultlib  \
+"../../../../mcu_computer.srcs/sources_1/imports/Projects/Week4/mcu_gen/mcu_gen.srcs/sources_1/new/BRANCH_ADDR_GEN.sv" \
+"../../../../mcu_computer.srcs/sources_1/imports/Projects/Week4/mcu_gen/mcu_gen.srcs/sources_1/new/IMMED_GEN.sv" \
+"../../../../mcu_computer.srcs/sources_1/new/OTTER_MCU.sv" \
+"../../../../mcu_computer.srcs/sources_1/imports/new/PC_MOD.sv" \
+"../../../../mcu_computer.srcs/sources_1/imports/Projects/Week3/alu/alu.srcs/sources_1/new/alu.sv" \
+"../../../../mcu_computer.srcs/sources_1/imports/Downloads/control_unit_dcdr_v_1_04-1.sv" \
+"../../../../mcu_computer.srcs/sources_1/imports/Downloads/control_unit_fsm_v_1_06.sv" \
+"../../../../mcu_computer.srcs/sources_1/imports/Downloads/otter_memory_v1_06.sv" \
+"../../../../mcu_computer.srcs/sources_1/imports/Downloads/reg_file_v_1_01.sv" \
+
+verilog xil_defaultlib  \
+"../../../../mcu_computer.srcs/sim_1/imports/Downloads/exp5_testbench-1.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

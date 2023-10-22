@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../program_counter.srcs/sources_1/imports/CPE 233/mux_4t1_nb_v1_06.v" \
+"../../../../program_counter.srcs/sources_1/imports/CPE 233/reg_nb_sync_clr_v1_01.v" \
+
+sv xil_defaultlib  \
+"../../../../program_counter.srcs/sources_1/new/PC_MOD.sv" \
+"../../../../program_counter.srcs/sources_1/new/Program_Counter.sv" \
+"../../../../program_counter.srcs/sources_1/imports/Downloads/otter_memory_v1_06.sv" \
+"../../../../program_counter.srcs/sim_1/new/PC_Sim.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

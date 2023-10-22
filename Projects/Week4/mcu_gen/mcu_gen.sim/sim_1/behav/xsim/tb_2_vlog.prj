@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../mcu_gen.srcs/sources_1/imports/sources_1/imports/CPE 233/mux_4t1_nb_v1_06.v" \
+"../../../../mcu_gen.srcs/sources_1/imports/sources_1/imports/CPE 233/reg_nb_sync_clr_v1_01.v" \
+
+sv xil_defaultlib  \
+"../../../../mcu_gen.srcs/sources_1/new/BRANCH_ADDR_GEN.sv" \
+"../../../../mcu_gen.srcs/sources_1/new/IMMED_GEN.sv" \
+"../../../../mcu_gen.srcs/sources_1/imports/sources_1/new/PC_MOD.sv" \
+"../../../../mcu_gen.srcs/sources_1/new/mcu_gen.sv" \
+"../../../../mcu_gen.srcs/sources_1/imports/Downloads/otter_memory_v1_06.sv" \
+
+verilog xil_defaultlib  \
+"../../../../mcu_gen.srcs/sim_1/imports/Downloads/exp4_testbench-1.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

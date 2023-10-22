@@ -1,0 +1,21 @@
+Exception at PC 0x00007FF892FC1470
+Attemped to read address 0x00000000469C61A8
+Printing stacktrace...
+
+[0] (memcpy+0x180) [0x00007FF892FC1470]
+[1] (memcpy+0x180) [0x00007FF892FC1470]
+[2] (SimBridge::IWdbWriter::operator=+0x662) [0x00007FF8426ED312]
+[3] (xsi_trace_all+0xc36a) [0x00007FFFF8AAA7FA]
+[4] (boost::serialization::singleton_module::unlock+0xf4c2) [0x00007FFFF8AE5832]
+[5]  [0x00007FFFF8942F74]
+[6]  [0x00007FFFF8939E96]
+[7]  [0x00007FFFF8942C27]
+[8]  [0x00007FFFF8945BFB]
+[9]  [0x00007FFFF89450C3]
+[10] (iki_simulate_design+0x36) [0x00007FFFF8997DC6]
+[11]  [0x00000000004095A2]
+[12]  [0x00000000004013E8]
+[13]  [0x000000000040151B]
+[14] (BaseThreadInitThunk+0x14) [0x00007FF8C74C74B4]
+[15] (RtlUserThreadStart+0x21) [0x00007FF8C88E26A1]
+Done

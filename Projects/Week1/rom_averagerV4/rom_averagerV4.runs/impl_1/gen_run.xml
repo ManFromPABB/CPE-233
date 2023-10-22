@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1674620525">
+  <File Type="ROUTE-PWR" Name="ROM_Averager_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="ROM_Averager.tcl"/>
+  <File Type="BITSTR-MMI" Name="ROM_Averager.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="ROM_Averager_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="ROM_Averager_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="ROM_Averager_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="ROM_Averager_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="ROM_Averager_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="ROM_Averager_opt.dcp"/>
+  <File Type="OPT-DRC" Name="ROM_Averager_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="ROM_Averager.hwdef"/>
+  <File Type="PWROPT-DCP" Name="ROM_Averager_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="ROM_Averager_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="ROM_Averager_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="ROM_Averager_placed.dcp"/>
+  <File Type="PLACE-IO" Name="ROM_Averager_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="ROM_Averager_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="ROM_Averager_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="ROM_Averager_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="ROM_Averager_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="ROM_Averager_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="ROM_Averager_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="ROM_Averager.bin"/>
+  <File Type="PLACE-TIMING" Name="ROM_Averager_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="ROM_Averager_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="ROM_Averager.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="ROM_Averager_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="ROM_Averager_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="ROM_Averager_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="ROM_Averager.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="ROM_Averager_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="ROM_Averager_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="ROM_Averager_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="ROM_Averager_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="ROM_Averager_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="ROM_Averager_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="ROM_Averager_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="ROM_Averager_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="ROM_Averager_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ROM_Averager_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="ROM_Averager_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="ROM_Averager_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="ROM_Averager_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="ROM_Averager_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="ROM_Averager_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="ROM_Averager_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="ROM_Averager_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="ROM_Averager_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="ROM_Averager_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="ROM_Averager_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="ROM_Averager_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="ROM_Averager_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="ROM_Averager_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="ROM_Averager_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="ROM_Averager_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="ROM_Averager_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="ROM_Averager_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="ROM_Averager.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="ROM_Averager_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="ROM_Averager_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="ROM_Averager.nky"/>
+  <File Type="BITSTR-BMM" Name="ROM_Averager_bd.bmm"/>
+  <File Type="PDI-FILE" Name="ROM_Averager.pdi"/>
+  <File Type="RCFI_FILE" Name="ROM_Averager.rcfi"/>
+  <File Type="CFI_FILE" Name="ROM_Averager.cfi"/>
+  <File Type="RNPI_FILE" Name="ROM_Averager.rnpi"/>
+  <File Type="NPI_FILE" Name="ROM_Averager.npi"/>
+  <File Type="RBD_FILE" Name="ROM_Averager.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="ROM_Averager.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="ROM_Averager.sysdef"/>
+  <File Type="BG-BGN" Name="ROM_Averager.bgn"/>
+  <File Type="BG-DRC" Name="ROM_Averager.drc"/>
+  <File Type="RDI-RDI" Name="ROM_Averager.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="ROM_Averager_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="ROM_Averager_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/CPE 233/Verilog_FSM_Template v1_00-1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Verilog_FSM_Template v1_00-1.v"/>
+        <Attr Name="ImportTime" Val="1673461470"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CPE 233/cntr_up_clr_nb_v1_03.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../cntr_up_clr_nb_v1_03.v"/>
+        <Attr Name="ImportTime" Val="1673461490"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CPE 233/comp_nb_v1_02.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../comp_nb_v1_02.v"/>
+        <Attr Name="ImportTime" Val="1673461493"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ManFr/Downloads/exp1h_rom_16x8a.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../Downloads/exp1h_rom_16x8a.v"/>
+        <Attr Name="ImportTime" Val="1673322268"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ManFr/Downloads/exp1h_rom_16x8b.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../Downloads/exp1h_rom_16x8b.v"/>
+        <Attr Name="ImportTime" Val="1673322274"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CPE 233/mux_2t1_nb_v1_04.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../mux_2t1_nb_v1_04.v"/>
+        <Attr Name="ImportTime" Val="1673461505"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CPE 233/n_x_m_single_port_ram_v_1_01.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../n_x_m_single_port_ram_v_1_01.v"/>
+        <Attr Name="ImportTime" Val="1673461520"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CPE 233/rca_nb_v1_04.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../rca_nb_v1_04.v"/>
+        <Attr Name="ImportTime" Val="1673461524"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CPE 233/univ_sseg_v1_05.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../univ_sseg_v1_05.v"/>
+        <Attr Name="ImportTime" Val="1673461474"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CPE 233/usr_nb_v1_01.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../usr_nb_v1_01.v"/>
+        <Attr Name="ImportTime" Val="1673461598"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CPE 233/clock_div2.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../clock_div2.vhd"/>
+        <Attr Name="ImportTime" Val="1660434845"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ROM_Averager.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Round_Up.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/exp1h_romb.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../Downloads/exp1h_romb.mem"/>
+        <Attr Name="ImportTime" Val="1673322285"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/exp1h_roma.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../Downloads/exp1h_roma.mem"/>
+        <Attr Name="ImportTime" Val="1673322280"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ROM_Averager"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/CPE 233/Basys3_Master_v1_03.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Basys3_Master_v1_03.xdc"/>
+        <Attr Name="ImportTime" Val="1673461462"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

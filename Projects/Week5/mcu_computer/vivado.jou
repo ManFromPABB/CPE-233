@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Feb 15 20:51:23 2023
+# Process ID: 6484
+# Current directory: C:/Users/ManFr/Desktop/OneDrive - Cal Poly/Documents and Notes/Sophomore/Winter Quarter/CPE 233/Projects/Week5/mcu_computer
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21652 C:\Users\ManFr\Desktop\OneDrive - Cal Poly\Documents and Notes\Sophomore\Winter Quarter\CPE 233\Projects\Week5\mcu_computer\mcu_computer.xpr
+# Log file: C:/Users/ManFr/Desktop/OneDrive - Cal Poly/Documents and Notes/Sophomore/Winter Quarter/CPE 233/Projects/Week5/mcu_computer/vivado.log
+# Journal file: C:/Users/ManFr/Desktop/OneDrive - Cal Poly/Documents and Notes/Sophomore/Winter Quarter/CPE 233/Projects/Week5/mcu_computer\vivado.jou
+# Running On: JUSTIN-PC2021, OS: Windows, CPU Frequency: 3800 MHz, CPU Physical cores: 16, Host memory: 34261 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/ManFr/Desktop/OneDrive - Cal Poly/Documents and Notes/Sophomore/Winter Quarter/CPE 233/Projects/Week5/mcu_computer/mcu_computer.xpr}
+launch_simulation
+update_compile_order -fileset sources_1

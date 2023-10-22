@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../interrupts2.srcs/sources_1/imports/sources/mux_4t1_nb_v1_06.v" \
+"../../../../interrupts2.srcs/sources_1/imports/sources/mux_8t1_nb_v1_03.v" \
+
+sv xil_defaultlib  \
+"../../../../interrupts2.srcs/sources_1/imports/sources/BRANCH_ADDR_GEN.sv" \
+"../../../../interrupts2.srcs/sources_1/imports/sources/BRANCH_COND_GEN.sv" \
+"../../../../interrupts2.srcs/sources_1/imports/sources/CSR_v1_03.sv" \
+"../../../../interrupts2.srcs/sources_1/imports/sources/IMMED_GEN.sv" \
+"../../../../interrupts2.srcs/sources_1/imports/sources/OTTER_MCU.sv" \
+"../../../../interrupts2.srcs/sources_1/imports/Downloads/OTTER_Wrapper_v1_07.sv" \
+"../../../../interrupts2.srcs/sources_1/imports/sources/PC_MOD.sv" \
+"../../../../interrupts2.srcs/sources_1/imports/sources/alu.sv" \
+"../../../../interrupts2.srcs/sources_1/imports/sources/control_unit_dcdr_v_1_04-1.sv" \
+"../../../../interrupts2.srcs/sources_1/imports/sources/control_unit_fsm_v_1_06.sv" \
+"../../../../interrupts2.srcs/sources_1/imports/sources/dbounce_v1_01-1.sv" \
+"../../../../interrupts2.srcs/sources_1/imports/sources/one_shot_posneg_v1_02-1.sv" \
+"../../../../interrupts2.srcs/sources_1/imports/sources/otter_memory_v1_06.sv" \
+"../../../../interrupts2.srcs/sources_1/imports/sources/reg_file_v_1_01.sv" \
+"../../../../interrupts2.srcs/sim_1/new/sim.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
